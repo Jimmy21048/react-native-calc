@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "native-three",
-    "slug": "native-three",
-    "version": "1.0.0",
+    "name": "calculator",
+    "slug": "calculator",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,10 +19,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.envoy101.nativethree"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "97ad1589-4ab1-4820-be31-21fafbf4ca07"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/97ad1589-4ab1-4820-be31-21fafbf4ca07"
     }
   }
 }
